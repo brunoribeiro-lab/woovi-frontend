@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Woovi Frontend 
 
-## Available Scripts
+Desafio Woovi Frontend
 
-In the project directory, you can run:
+[![Woovi][screenshot]](https://woovi.com/jobs/challenges/frontend-engineer/)
 
-### `npm start`
+## Índice
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Sobre](#sobre)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Docker](#docker)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Sobre
 
-### `npm test`
+Adicione uma descrição mais detalhada do seu projeto aqui. Explique o propósito e as funcionalidades principais.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Construído Com
 
-### `npm run build`
+Abaixo está as tecnologias usadas no desenvolvimento desse projeto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [React](https://react.dev/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Veja abaixo todos os passos para fazer a instalação corretamente da aplicação.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Pré-requisitos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/en/) (versão 16 ou superior)
+- [npm](https://www.npmjs.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Passos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone o repositório
 
-## Learn More
+```sh
+git clone https://github.com/brunoribeiro-lab/woovi-frontend.git
+```
+2. Navegue até o diretório do projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+cd nome-do-repositorio
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Instale as dependências
 
-### Code Splitting
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Uso
 
-### Analyzing the Bundle Size
+### Desenvolvimento
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para rodar a aplicação em modo de desenvolvimento:
 
-### Making a Progressive Web App
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Abra http://localhost:3000 para visualizar no navegador.
 
-### Advanced Configuration
+### Produção
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Para construir a aplicação para produção:
 
-### Deployment
+```sh
+npm build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Os arquivos construídos serão armazenados na pasta `build`.
 
-### `npm run build` fails to minify
+## Docker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Pré-requisitos
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+### Passos
+
+1. Construa a imagem Docker e inicie os contêineres
+
+```sh
+docker-compose up -d --build
+```
+
+2. Acesse a aplicação
+
+Abra http://localhost:5000 no navegador.
+
+
+## Roadmap
+ 
+- [X] Finalizar Desafio
+- [ ] Melhorar a validação na tela de cartão de crédito
+
+## Contribuição
+
+1. Faça um Fork do projeto
+2. Crie uma nova branch (git checkout -b feature/nome-da-feature)
+3. Faça as alterações necessárias e commit (git commit -m 'Adicionei nova funcionalidade')
+4. Faça o push para a branch (git push origin feature/nome-da-feature)
+5. Abra um Pull Request
+
+
+### Autores
+
+* **Bruno Ribeiro  - [Linkedin](https://www.linkedin.com/in/bruno-ribeiro-46675922a/) - bruno.ribeiro.lab@gmail.com**
+ 
+### Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/brunoribeiro-lab/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/brunoribeiro-lab/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/brunoribeiro-lab/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/brunoribeiro-lab/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/brunoribeiro-lab/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/brunoribeiro-lab/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/brunoribeiro-lab/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/brunoribeiro-lab/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/brunoribeiro-lab/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/brunoribeiro-lab/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/bruno-ribeiro-46675922a/
+[screenshot]: public/challenge.png
