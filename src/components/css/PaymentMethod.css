@@ -1,0 +1,177 @@
+.payment-method-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #4c4c4d !important;
+}
+
+.payment-method-header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-size: 1.1em !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px;
+    margin-top: 15px !important;
+    color: #4c4c4d !important;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.MuiButtonBase-root {
+    width: 100%;
+    border-left: 1px solid #ddd !important;
+    border-right: 1px solid #ddd !important;
+    border-top: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    margin: 0px 0 !important;
+    padding: 15px !important;
+    color: #4c4c4d !important;
+}
+
+.installment-container {
+    width: 100%;
+}
+
+.MuiButtonBase-root.border-bottom {
+    border-bottom: 1px solid #ddd !important;
+}
+
+.MuiButtonBase-root.group {
+    margin-top: -8px !important;
+    z-index: 1 !important;
+}
+
+.circle-radio { 
+    border: 2px solid !important;
+    border-color: #39d69e !important; 
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    float: right; 
+    padding: 0px !important;
+    width: 17px;
+    height: 17px;  
+    align-content: center;
+    background-color: #39d69e;  
+}
+.circle-radio svg{
+    padding-right: 3px !important;
+}
+.radio-right radio:checked {
+    border-color: #39d69e !important;
+    border: 1px solid #39d69e;
+}
+
+.radio-group .MuiRadio-colorPrimary.Mui-checked {
+    color: #03d69d !important;
+}
+
+.radio-group .MuiTypography-colorPrimary.Mui-checked {
+    color: #03d69d !important;
+}
+
+.line {
+    width: 100%;
+    text-align: left;
+}
+
+.line2 {
+    width: 100%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.installment-category {
+    font-size: 0.8em !important;
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    padding: 0px 15px;
+    border-radius: 25px;
+    margin-left: 15px !important;
+    background-color: #e5e5e5;
+    white-space: nowrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    fill: #03d69d;
+}
+
+.button-pix {
+    display: block;
+    width: 100%;
+    background-color: #03d69d !important;
+    padding: 5px !important;
+    color: white !important;
+}
+
+.radio-right {
+    width: auto;
+    float: right;
+    border: 0px !important;
+    padding: 0px !important;
+}
+
+.PrivateSwitchBase-input {
+    height: auto !important;
+}
+
+.label-pix {
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+.installment strong {
+    font-weight: bold;
+}
+
+.installment-value {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.radio-group .installment-total {
+    font-size: 0.8em;
+    color: #888;
+    display: block;
+}
+
+.cashback {
+    display: block;
+    color: #39d69e;
+    font-size: 0.9em;
+}
+
+.blue-banner {
+    background-color: #133a6f;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+    padding-right: 30px;
+}
+
+.blue-banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 22px;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(0% 0%, 80% 50%, 0% 100%);
+    transform: rotate(180deg);
+}

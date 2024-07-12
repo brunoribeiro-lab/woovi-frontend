@@ -1,0 +1,67 @@
+.credit-card-payment-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.credit-card-payment-header {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  margin-bottom: 0px !important;
+  margin-top: 15px !important;
+  color: #4c4c4d !important;
+  margin-bottom: 20px;
+}
+
+.text-field {
+  margin-bottom: 20px;
+}
+
+.half-width-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half-width {
+  width: 48%;
+}
+
+.payment-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.pay-button {
+  font-size: 0.8em !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+  border-radius: 10px !important;
+  background-color: #133a6f !important;
+  color: white !important;
+  width: 100%;
+}
+
+.payment-date {
+  font-weight: bold !important;
+  color: #4c4c4d !important;
+  font-size: 0.9em !important;
+  margin-bottom: 15px !important;
+  text-align: center;
+}
+
+.payment-expire-label {
+  color: #cdcdcd !important;
+  margin-top: 15px !important;
+  margin-bottom: 0px !important;
+  text-align: center;
+}
+
+.row{
+  width: 100%;
+  display: table-row;
+}
