@@ -20,10 +20,6 @@ Desafio Woovi Frontend
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
-## Sobre
-
-Adicione uma descrição mais detalhada do seu projeto aqui. Explique o propósito e as funcionalidades principais.
-
 ### Construído Com
 
 Abaixo está as tecnologias usadas no desenvolvimento desse projeto.
